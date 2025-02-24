@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    .bodeh {
+        width : 650px;
+        background: linear-gradient(90deg, rgba(144,44,29,1) 0%, rgba(253,29,29,1) 48%, rgba(252,159,69,1) 100%);
+        font-family: "Roboto", serif ;
+        margin-left : 0%;
+        margin-top: 0%;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-family: Creepster;
+        color: black;
+            -webkit-text-stroke: 0.1px white;
+        font-size: 295%;
+        margin-bottom: 0%;
+        margin-top: 5%;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 20px;;
+    } 
+    
+    h2 {
+        font-family: Creepster;
+        color: black;
+            -webkit-text-stroke: 0.1px white;
+        font-size: 200%;
+        margin-bottom: 0%;
+        margin-left: 10px;
+        margin-top: 0%;
+    }
+
+    h3 {
+        font-family: Creepster;
+        color: black;
+            -webkit-text-stroke: 0.1px white;
+        font-size: 150%;
+        margin-bottom: 0%;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    h4 {
+        font-family: "Roboto", serif;
+        color: black;
+        font-size: 110%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+        margin-left: 10px;
+    }
+
+    p {
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 35%;
+        display: inline-block;
+        font-style: italic;
+        font-size: 85%;
+    }
+
+    label {
+       margin-left: 20px;
+       font-style: italic;
+    }
+
+    img {
+        width: 200px;
+        display: inline-block;
+        margin-left: 2%;
+    }
+
+    input[type="checkbox"]{
+        appearance: none;
+        -webkit-appearance: none;
+        height : 15px;
+        width : 15px;
+        background-color: whitesmoke;
+        border-radius: 50px;
+        cursor : pointer;
+        align : center ;
+
+    }
+
+    input[type="checkbox"]:hover{
+        background-color: gold;
+    }
+
+    input[type="checkbox"]:checked{
+        background-color: goldenrod;
+    }
+
+    .goals {
+        display: inline-block;
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(221,160,60,1) 48%);
+        color : white;
+        border-radius: 20px;
+        margin-top : 0%;
+        margin-left: 10px;
+    }
+
+    .column-a {
+        display: inline-block;
+        width: 300px;
+        margin-top: 0%;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+
+    .column-b {
+        display: inline-block;
+        width: 300px;
+        vertical-align: top;
+        margin-top: 0%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .tasks {
+        background: linear-gradient(90deg, rgba(141,141,143,1) 0%, rgba(227,227,227,1) 34%);
+        border-radius: 10px;
+        margin-top: 0%;
+    }
+
+    .goal-a {
+        display: inline-block;
+        width: 300px;
+        margin-left: 10px;
+        margin-top: 0%;
+    }
+
+    .goal-b {
+        display: inline-block;
+        width: 300px;
+        margin-top: 0%;
+    }
+
+</style>
+
+<head>
+    <title>Lift the Curse</title> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+
+</head>
+
+<body>
+    <div class="bodeh">
+        <img src="housechallenge.png" alt="house challenge illustration"/>
+        <h1>Lever la malédiction</h1>
+        <p>Mélange des challenge : Every life stage challenge et widow challenge</p>            
+
+        <h2>Objectifs</h2>
+        <div class="goals">
+            <div class="goal-a">
+                <li>Avoir eu 10 époux•ses</li>
+                <li>Construire et compléter sa maison</li>
+                <li>Trouver son•sa partenaire final•e</li>
+            </div>
+            <div class="goal-b">
+                <li>Avoir eu 7 enfants et 3 animaux</li>
+                <li>Avoir son ainé•e marié•e</li>
+                <li>Avoir son ainé•e avec un nourisson</li>
+            </div>
+        </div>    
+        <h2>Tasks</h2>
+        <div class="column-a">
+            <h3>Nouveau né</h3>
+            <div class="tasks">
+                <h4>Main Sim</h4>
+                <input type="checkbox">Trouver un nouveau partenaire pour avoir un enfant ou un animal<br>
+                <input type="checkbox">Avoir un premier rendez-vous réussi<br>
+                <input type="checkbox">Avoir une demande en mariage réussite<br>
+                <input type="checkbox">Avoir un mariage réussi<br>
+                <input type="checkbox">Construire une pièce pour votre partenaire<br>
+                <input type="checkbox">Faire tourner la roue et avoir un bébé ou un animal<br>
+                <input type="checkbox">Faire tourner la roue de la Fatalité<br>  
+                <div>
+                    <label>Si vous allez-avoir un animal, ne procéder pas aux objectifs suivants !</label>
+                </div>         
+            </div>
+
+
+            <h3>Nourisson</h3>
+            <div class="tasks">
+            <div>
+                <h4>Nouveau né > Nourisson</h4>
+                <input type="checkbox" name="">Le Nouveau né à 3 jours<br>
+                <input type="checkbox" name="">Faire tourner les roues ! Et construire une chambre pour votre Nourisson<br>
+            </div>
+            <div>
+                <h4>Sim principal•e</h4>
+                <input type="checkbox" name="">Compléter une tâche d'aspiration<br>
+            </div>
+            </div>
+
+            <h3>Bambin</h3>
+            <div class="tasks">
+            <div>
+                <h4>Nourisson > Bambin</h4>
+                <input type="checkbox" name="">2 étapes de vie dans chaque catégories<br>            
+            </div>
+
+            <div>
+                <h4>Sim principal•e</h4>
+                <input type="checkbox" name="">Niveau 2 dans la compétences du hobby de votre nourisson<br>
+            </div>
+            </div>
+        </div>
+        <div class="column-b">
+            <h3>Enfant</h3>
+            <div class="tasks">
+            <div>
+                <h4>Bambin > Enfant</h4>
+                <input type="checkbox" name="">Niveau 3 dans toutes les compétences<br>
+            </div>
+            <div>
+                <h4>Sim principal•e > Adulte</h4>
+                <input type="checkbox" name="">Niveau 3 dans la compétence du hobby de votre bambin<br>
+            </div>
+            </div>
+            <h3>Ado</h3>
+            <div class="tasks">
+                <h4>Enfant > Ado</h4>
+                <input type="checkbox" name="">Compléter un projet scolaire<br>
+                <input type="checkbox" name="">Niveau 5 dans la compétence du hobby<br>
+                <input type="checkbox" name="">Niveau 3 dans 2 compétences<br>            
+            </div>
+
+
+            <h3>Jeune Adulte</h3>
+            <div class="tasks">
+                <h4>Ado > Jeune Adulte</h4>
+                <input type="checkbox" name="">Résultats scolaire B ou plus<br>
+                <input type="checkbox" name="">Vendre une tenue sur Stilé<br>
+                <input type="checkbox" name="">Aller au bal de promo avec un•e ami•e ou partenaire<br>            
+            </div>
+
+
+            <h3>Adulte</h3>
+            <div class="tasks">
+            <div>
+                <h4>Jeune Adulte > Adulte</h4>
+                <input type="checkbox" name="">Avoir son ainé•e marié•e<br>
+                <input type="checkbox" name="">Avoir son ainé fonder une famille avec un nouveau né<br>            
+            </div>
+
+            <div>
+                <h4>Sim principal•e > Senior</h4>
+                <input type="checkbox" name="">Trouver votre partenaire final•e et marié le•la<br>            
+            </div>
+            </div>
+
+            <h3>Senior</h3>
+            <div class="tasks">
+            <input type="checkbox" name="">Organiser une réunion de famille (avec les fantômes si possible)<br>            
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
